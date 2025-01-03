@@ -31,9 +31,10 @@ try:
 except ImportError:
     LMDEPLOY_INSTALLED = False
 
-LMDEPLOY_SUPPORTED_CHAT_MODELS = ["internvl2"]
+LMDEPLOY_SUPPORTED_CHAT_MODELS = ["internvl2", "internvl2.5"]
 LMDEPLOY_MODEL_CHAT_TEMPLATE_NAME = {
     "internvl2": "internvl-internlm2",
+    "internvl2.5": "internvl2.5-internlm2.5",
 }
 
 

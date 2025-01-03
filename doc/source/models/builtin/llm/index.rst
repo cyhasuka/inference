@@ -221,6 +221,11 @@ The following is a list of built-in LLM in Xinference:
      - 32768
      - InternVL 2 is an open-source multimodal large language model (MLLM) to bridge the capability gap between open-source and proprietary commercial models in multimodal understanding. 
 
+   * - :ref:`internvl2.5 <models_llm_internvl2.5>`
+     - chat, vision
+     - 32768
+     - InternVL 2.5 is an advanced multimodal large language model (MLLM) series that builds upon InternVL 2.0, maintaining its core model architecture while introducing significant enhancements in training and testing strategies as well as data quality. 
+
    * - :ref:`llama-2 <models_llm_llama-2>`
      - generate
      - 4096

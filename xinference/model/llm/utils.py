@@ -128,7 +128,7 @@ class ChatModelMixin:
         _messages = [x for x in messages]  # copy for not modifying the origin messages
         _messages.append({"role": "assistant", "content": ""})
 
-        if model_family == "internvl2":
+        if model_family in ["internvl2", "internvl2.5"]:
             system_prompt = (
                 messages[0]["content"] if messages[0]["role"] == "system" else ""
             )

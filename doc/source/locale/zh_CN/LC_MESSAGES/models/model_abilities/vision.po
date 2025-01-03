@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-20 11:56+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Yuhao Cui <mail@cuiyuhao.com>\n"
 "Language: zh_CN\n"
 "Language-Team: zh_CN <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: ../../source/models/model_abilities/vision.rst:5
+#: ../../source/models/model_abilities/vision.rst:4
 msgid "Vision"
 msgstr "视觉"
 
@@ -91,11 +91,15 @@ msgstr ""
 msgid ":ref:`internvl2 <models_llm_internvl2>`"
 msgstr ""
 
-#: ../../source/models/model_abilities/vision.rst:36
+#: ../../source/models/model_abilities/vision.rst:33
+msgid ":ref:`internvl2.5 <models_llm_internvl2.5>`"
+msgstr ""
+
+#: ../../source/models/model_abilities/vision.rst:40
 msgid "Quickstart"
 msgstr "快速入门"
 
-#: ../../source/models/model_abilities/vision.rst:38
+#: ../../source/models/model_abilities/vision.rst:43
 msgid ""
 "Images are made available to the model in two main ways: by passing a "
 "link to the image or by passing the base64 encoded image directly in the "
@@ -104,23 +108,23 @@ msgstr ""
 "模型可以通过两种主要方式获取图像：通过传递图像的链接或直接在请求中传递 "
 "base64 编码的图像。"
 
-#: ../../source/models/model_abilities/vision.rst:42
+#: ../../source/models/model_abilities/vision.rst:46
 msgid "Example using OpenAI Client"
 msgstr "使用 OpenAI 客户端的示例"
 
-#: ../../source/models/model_abilities/vision.rst:73
+#: ../../source/models/model_abilities/vision.rst:77
 msgid "Uploading base 64 encoded images"
 msgstr "上传 Base64 编码的图片"
 
-#: ../../source/models/model_abilities/vision.rst:115
+#: ../../source/models/model_abilities/vision.rst:120
 msgid "You can find more examples of ``vision`` ability in the tutorial notebook:"
 msgstr "你可以在教程笔记本中找到更多关于 ``vision`` 能力的示例。"
 
-#: ../../source/models/model_abilities/vision.rst:119
+#: ../../source/models/model_abilities/vision.rst:124
 msgid "Qwen VL Chat"
 msgstr ""
 
-#: ../../source/models/model_abilities/vision.rst:122
+#: ../../source/models/model_abilities/vision.rst:127
 msgid "Learn vision ability from a example using qwen-vl-chat"
 msgstr "通过使用 qwen-vl-chat 的示例来学习使用 LLM 的视觉能力"
 

@@ -187,6 +187,7 @@ if VLLM_INSTALLED and vllm.__version__ > "0.5.3":
 
 if VLLM_INSTALLED and vllm.__version__ >= "0.6.1":
     VLLM_SUPPORTED_VISION_MODEL_LIST.append("internvl2")
+    VLLM_SUPPORTED_VISION_MODEL_LIST.append("internvl2.5")
 
 if VLLM_INSTALLED and vllm.__version__ >= "0.6.2":
     VLLM_SUPPORTED_CHAT_MODELS.append("minicpm3-4b")
@@ -902,7 +903,7 @@ class VLLMVisionModel(VLLMModel, ChatModelMixin):
 
         model_family = self.model_family.model_family or self.model_family.model_name
 
-        if "internvl2" not in model_family.lower():
+        if not any(model in model_family.lower() for model in ["internvl2", "internvl2.5"]):
             from qwen_vl_utils import process_vision_info
 
             full_context_kwargs = {}

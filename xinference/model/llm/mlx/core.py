@@ -575,7 +575,7 @@ class MLXVisionModel(MLXModel, ChatModelMixin):
 
         model_family = self.model_family.model_family or self.model_family.model_name
 
-        if "internvl2" not in model_family.lower():
+        if not any(model in model_family.lower() for model in ["internvl2", "internvl2.5"]):
             from qwen_vl_utils import process_vision_info
 
             full_context_kwargs = {}
